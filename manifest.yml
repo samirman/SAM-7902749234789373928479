@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SAM-7902749234789373928479
+  host: SAM-7902749234789373928479
+  disk_quota: 1024M
+  services:
+  - SAM-7902749234789373928479-personality_insights
